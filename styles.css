@@ -45,7 +45,7 @@ li a:hover {
 
 .heading {
     text-align: center;
-    color: #0dc0db;
+    color: red;
     background-color: #333;
     border-radius: 35px;
 
@@ -59,8 +59,8 @@ li a:hover {
 }
 
 .card:hover {
-    color: #0dc0db;
-    border: 2px solid #0dc0db;
+    color: red;
+    border: 2px solid #007bff;
 }
 
 form {
@@ -97,7 +97,9 @@ form {
 }
 
 .dropdown-item:hover {
-    border: 2px solid #0dc0db;
+	opacity: 0.8;
+	color: red;
+    border: 2px solid blue;
 }
 
 /* ================================================================================ */
