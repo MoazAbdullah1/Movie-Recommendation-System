@@ -9,7 +9,8 @@
 }
 
 .navbar {
-    background-color: #0dc0db;
+    background-color: #333;
+
 }
 
 
@@ -102,8 +103,12 @@ form {
 /* ================================================================================ */
 
 
-header, section, footer, aside, main, article, div, figure, nav{
+/* header, section, footer, aside, main, article, div, figure, nav{
 	display: block;
+} */
+
+name{
+	text-align: center;
 }
 
 body{
