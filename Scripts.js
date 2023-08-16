@@ -1,10 +1,13 @@
 
 const payButton = document.getElementById("payButton");
+
 const bankDetailsForm = document.getElementById("bankDetailsForm");
 
 payButton.addEventListener("click", () => {
+
     // Show the bank details form when the Pay button is clicked
     bankDetailsForm.style.display = "block";
+    
 });
 
 const bankForm = document.getElementById("bankForm");
