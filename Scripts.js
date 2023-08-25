@@ -4,9 +4,11 @@ const payButton = document.getElementById("payButton");
 const bankDetailsForm = document.getElementById("bankDetailsForm");
 
 payButton.addEventListener("click", () => {
+    
 
     // Show the bank details form when the Pay button is clicked
     bankDetailsForm.style.display = "block";
+    s
     
 });
 
@@ -15,6 +17,7 @@ bankForm.addEventListener("submit", (event) => {
     event.preventDefault();
 
     // Here you can write code to process the form data,
+    // 
     // send it to the server, and handle the payment.
 
     // After processing the payment, you might want to show
