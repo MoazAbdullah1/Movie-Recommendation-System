@@ -1,7 +1,11 @@
 
 const payButton = document.getElementById("payButton");
 
+
+
 const bankDetailsForm = document.getElementById("bankDetailsForm");
+
+
 
 payButton.addEventListener("click", () => {
     
@@ -11,6 +15,9 @@ payButton.addEventListener("click", () => {
     s
     
 });
+
+
+
 
 const bankForm = document.getElementById("bankForm");
 bankForm.addEventListener("submit", (event) => {
